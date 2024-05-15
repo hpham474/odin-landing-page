@@ -45,7 +45,7 @@ a {
     padding: 0;
     display: flex;
     font-size: 48px;
-    font-weight: 800;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -99,4 +99,24 @@ a {
 
 .subtext{
     text-align: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-credit{
+    align-self: flex-end;
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
 }
