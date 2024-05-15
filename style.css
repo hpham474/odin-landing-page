@@ -1,10 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
 
+.header-background,
+.main-background {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.quote-background {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.information-background {
+    display: flex;
+    justify-content: center;
+}
+
+.header,
+.main,
+.information,
+.quote,
+.sign-up-banner {
+    max-width: 1000px;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.main,
+.information,
+.quote,
+.sign-up-background {
+    padding: 70px;
+}
+
 .header {
     display: flex;
-    background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
 }
@@ -98,24 +136,25 @@ a {
 }
 
 .subtext{
+    margin: 0;
     text-align: center;
 }
 
 .quote{
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
 }
 
 .quote-text{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    margin: 0;
 }
 
 .quote-credit{
     align-self: flex-end;
-    margin-top: 0;
+    margin: 0;
     font-size: 24px;
     font-weight: bold;
     color: #1F2937;
@@ -127,7 +166,6 @@ a {
     background-color: #3882F6;
     justify-content: space-between;
     align-items: center;
-    max-width: 1000px;
     padding: 50px 100px;
     margin-left: auto;
     margin-right: auto;
@@ -164,4 +202,5 @@ a {
     justify-content: center;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 50px;
 }
